@@ -6,13 +6,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="BLL\Modules" />
+      <Folder Include="BLL\Core\Modules" />
+      <Folder Include="BLL\Modules\Auth\Static" />
+      <Folder Include="BLL\Modules\Settings\Static" />
       <Folder Include="DAL\Models" />
       <Folder Include="PL\Transformers" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="WebSocketSharp-NonPreRelease" Version="1.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     </ItemGroup>
 
 </Project>
