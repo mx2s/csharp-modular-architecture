@@ -11,6 +11,11 @@
         <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
         <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
         <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+        <PackageReference Include="Npgsql" Version="4.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DAL\Models" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,8 @@
+{
+  "database": {
+    "host": "localhost",
+    "name": "csharp_modular",
+    "user": "postgres",
+    "password": "1234"
+  }
+}
