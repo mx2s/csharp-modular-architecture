@@ -7,6 +7,13 @@ C# backend / microservice boilerplate project with modular architecture
 ## Project & module structure
 + in progress..
 
+## Naming conventions exceptions:
++ Utils classes (static) - ex. UAuth => AuthUtils
++ Controllers (static) - ex. CAuth => AuthController
++ Logic (static) - ex. LAuth => AuthLogic
++ Transformers (static) - ex. TUser
++ Modules - ex. MAuth
+
 ## Contribution
 
 **Want to contribute? Great!**
