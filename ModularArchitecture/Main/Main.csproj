@@ -3,13 +3,12 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp2.1</TargetFramework>
+        <LangVersion>7.3</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
       <Folder Include="BLL\Core\Modules" />
-      <Folder Include="BLL\Modules\Auth\Static" />
-      <Folder Include="BLL\Modules\Settings\Static" />
-      <Folder Include="PL\Transformers" />
+      <Folder Include="BLL\Modules\Auth" />
     </ItemGroup>
 
     <ItemGroup>
