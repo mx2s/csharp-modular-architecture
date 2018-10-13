@@ -11,8 +11,8 @@ C# backend / microservice boilerplate project with modular architecture
 + Utils classes (static) - ex. UAuth => AuthUtils
 + Controllers (static) - ex. CAuth => AuthController
 + Logic (static) - ex. LAuth => AuthLogic
-+ Transformers (static) - ex. TUser
-+ Modules - ex. MAuth
++ Transformers (static) - ex. TUser => UserTransformer
++ Modules - ex. MAuth => AuthModule
 
 ## Contribution
 
