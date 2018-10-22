@@ -22,4 +22,5 @@ C# backend / microservice boilerplate project with modular architecture
 
 ## v0.1 checklist
 - [ ] basic structure (working auth endpoints)
+- [ ] using enums in models (auto cast in sql)
 - [ ] working modules
