@@ -7,11 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="BLL\Core\Modules" />
-      <Folder Include="BLL\Modules\Auth" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Dapper" Version="1.50.5" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
       <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
